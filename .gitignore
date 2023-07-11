@@ -1,0 +1,49 @@
+# Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos y directorios generados por el entorno de desarrollo
+__pycache__/
+.env
+venv/
+node_modules/
+
+# Ignorar archivos generados por el editor de texto
+.vscode/
+
+# Ignorar archivos de registro y salida
+*.log
+*.out
+
+
+# Ignorar archivos de dependencias y entorno virtual de Python
+pip-lock.txt
+pipfile.lock
+
+# Ignorar archivos de dependencias y entorno virtual de Node.js
+package-lock.json
+yarn.lock
+
+# Ignorar archivos generados en la carpeta de construcción
+build/
+
+# Ignorar archivos de respaldo y archivos temporales
+*~
+*.swp
+*.tmp
+
+# Ignorar archivos de medios y recursos estáticos generados
+/staticfiles/
+/media/
+
+
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de configuración específicos del sistema
+*.iml
+.idea/
+.vscode/
+
